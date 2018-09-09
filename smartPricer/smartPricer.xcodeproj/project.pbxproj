@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		52215CFE21455E29000B6C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215CFD21455E29000B6C9F /* AppDelegate.swift */; };
-		52215D0021455E29000B6C9F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215CFF21455E29000B6C9F /* FirstViewController.swift */; };
-		52215D0221455E29000B6C9F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D0121455E29000B6C9F /* SecondViewController.swift */; };
+		52215D0021455E29000B6C9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215CFF21455E29000B6C9F /* HomeViewController.swift */; };
+		52215D0221455E29000B6C9F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D0121455E29000B6C9F /* CameraViewController.swift */; };
 		52215D0521455E29000B6C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0321455E29000B6C9F /* Main.storyboard */; };
 		52215D0721455E2A000B6C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0621455E2A000B6C9F /* Assets.xcassets */; };
 		52215D0A21455E2A000B6C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */; };
 		52215D1521455E2A000B6C9F /* smartPricerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D1421455E2A000B6C9F /* smartPricerTests.swift */; };
+		52215D20214569E4000B6C9F /* CameraRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D1F214569E4000B6C9F /* CameraRollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +30,8 @@
 /* Begin PBXFileReference section */
 		52215CFA21455E29000B6C9F /* smartPricer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartPricer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52215CFD21455E29000B6C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52215CFF21455E29000B6C9F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		52215D0121455E29000B6C9F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52215CFF21455E29000B6C9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		52215D0121455E29000B6C9F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		52215D0421455E29000B6C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52215D0621455E2A000B6C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52215D0921455E2A000B6C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		52215D1021455E2A000B6C9F /* smartPricerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartPricerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52215D1421455E2A000B6C9F /* smartPricerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartPricerTests.swift; sourceTree = "<group>"; };
 		52215D1621455E2A000B6C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52215D1F214569E4000B6C9F /* CameraRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				52215CFD21455E29000B6C9F /* AppDelegate.swift */,
-				52215CFF21455E29000B6C9F /* FirstViewController.swift */,
-				52215D0121455E29000B6C9F /* SecondViewController.swift */,
+				52215CFF21455E29000B6C9F /* HomeViewController.swift */,
+				52215D0121455E29000B6C9F /* CameraViewController.swift */,
+				52215D1F214569E4000B6C9F /* CameraRollViewController.swift */,
 				52215D0321455E29000B6C9F /* Main.storyboard */,
 				52215D0621455E2A000B6C9F /* Assets.xcassets */,
 				52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */,
@@ -200,9 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52215D0221455E29000B6C9F /* SecondViewController.swift in Sources */,
+				52215D0221455E29000B6C9F /* CameraViewController.swift in Sources */,
 				52215CFE21455E29000B6C9F /* AppDelegate.swift in Sources */,
-				52215D0021455E29000B6C9F /* FirstViewController.swift in Sources */,
+				52215D20214569E4000B6C9F /* CameraRollViewController.swift in Sources */,
+				52215D0021455E29000B6C9F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

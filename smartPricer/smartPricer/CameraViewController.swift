@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
-class SecondViewController: UIViewController {
+class CameraViewController: UIViewController {
 
+    //MARK: Outlets
+    @IBOutlet var previewView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
