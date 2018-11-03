@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  smartPricer
 //
 //  Created by Justin Antony on 2018-09-09.
@@ -7,13 +7,9 @@
 //
 
 import UIKit
-import AVFoundation
 
-class CameraViewController: UIViewController {
+class MarketplaceViewController: UIViewController {
 
-    //MARK: Outlets
-    @IBOutlet var previewView: UIView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

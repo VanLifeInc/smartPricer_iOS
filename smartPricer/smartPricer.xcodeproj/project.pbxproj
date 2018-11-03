@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		52215CFE21455E29000B6C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215CFD21455E29000B6C9F /* AppDelegate.swift */; };
-		52215D0021455E29000B6C9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215CFF21455E29000B6C9F /* HomeViewController.swift */; };
-		52215D0221455E29000B6C9F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D0121455E29000B6C9F /* CameraViewController.swift */; };
+		52215D0021455E29000B6C9F /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215CFF21455E29000B6C9F /* MarketViewController.swift */; };
+		52215D0221455E29000B6C9F /* MyStuffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D0121455E29000B6C9F /* MyStuffViewController.swift */; };
 		52215D0521455E29000B6C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0321455E29000B6C9F /* Main.storyboard */; };
 		52215D0721455E2A000B6C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0621455E2A000B6C9F /* Assets.xcassets */; };
 		52215D0A21455E2A000B6C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */; };
 		52215D1521455E2A000B6C9F /* smartPricerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D1421455E2A000B6C9F /* smartPricerTests.swift */; };
-		52215D20214569E4000B6C9F /* CameraRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D1F214569E4000B6C9F /* CameraRollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +29,8 @@
 /* Begin PBXFileReference section */
 		52215CFA21455E29000B6C9F /* smartPricer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartPricer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52215CFD21455E29000B6C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52215CFF21455E29000B6C9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		52215D0121455E29000B6C9F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		52215CFF21455E29000B6C9F /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		52215D0121455E29000B6C9F /* MyStuffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStuffViewController.swift; sourceTree = "<group>"; };
 		52215D0421455E29000B6C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52215D0621455E2A000B6C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52215D0921455E2A000B6C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,7 +38,6 @@
 		52215D1021455E2A000B6C9F /* smartPricerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartPricerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52215D1421455E2A000B6C9F /* smartPricerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartPricerTests.swift; sourceTree = "<group>"; };
 		52215D1621455E2A000B6C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52215D1F214569E4000B6C9F /* CameraRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				52215CFD21455E29000B6C9F /* AppDelegate.swift */,
-				52215CFF21455E29000B6C9F /* HomeViewController.swift */,
-				52215D0121455E29000B6C9F /* CameraViewController.swift */,
-				52215D1F214569E4000B6C9F /* CameraRollViewController.swift */,
+				52215CFF21455E29000B6C9F /* MarketViewController.swift */,
+				52215D0121455E29000B6C9F /* MyStuffViewController.swift */,
 				52215D0321455E29000B6C9F /* Main.storyboard */,
 				52215D0621455E2A000B6C9F /* Assets.xcassets */,
 				52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */,
@@ -152,9 +149,11 @@
 				TargetAttributes = {
 					52215CF921455E29000B6C9F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					52215D0F21455E2A000B6C9F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 52215CF921455E29000B6C9F;
 					};
 				};
@@ -203,10 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52215D0221455E29000B6C9F /* CameraViewController.swift in Sources */,
+				52215D0221455E29000B6C9F /* MyStuffViewController.swift in Sources */,
 				52215CFE21455E29000B6C9F /* AppDelegate.swift in Sources */,
-				52215D20214569E4000B6C9F /* CameraRollViewController.swift in Sources */,
-				52215D0021455E29000B6C9F /* HomeViewController.swift in Sources */,
+				52215D0021455E29000B6C9F /* MarketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,13 +367,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8BH8DHA47;
 				INFOPLIST_FILE = smartPricer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.smartPricer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -387,13 +386,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8BH8DHA47;
 				INFOPLIST_FILE = smartPricer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.smartPricer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -413,7 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.smartPricerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartPricer.app/smartPricer";
 			};
@@ -434,7 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.smartPricerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartPricer.app/smartPricer";
 			};
