@@ -11,6 +11,7 @@ import UIKit
 class MyStuffViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
    
     let imagePicker = UIImagePickerController()
+    let model = _2018_11_12_xception_8452_1()
     
     @IBOutlet var imageView: UIImageView!
     

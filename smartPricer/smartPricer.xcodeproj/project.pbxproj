@@ -14,6 +14,7 @@
 		52215D0721455E2A000B6C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0621455E2A000B6C9F /* Assets.xcassets */; };
 		52215D0A21455E2A000B6C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */; };
 		52215D1521455E2A000B6C9F /* smartPricerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52215D1421455E2A000B6C9F /* smartPricerTests.swift */; };
+		52D8989121A39B8D00578A8E /* 2018_11_12_xception_8452.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 52D8989021A39B8D00578A8E /* 2018_11_12_xception_8452.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		52215D1021455E2A000B6C9F /* smartPricerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartPricerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52215D1421455E2A000B6C9F /* smartPricerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartPricerTests.swift; sourceTree = "<group>"; };
 		52215D1621455E2A000B6C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D8989021A39B8D00578A8E /* 2018_11_12_xception_8452.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = 2018_11_12_xception_8452.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				52215D0621455E2A000B6C9F /* Assets.xcassets */,
 				52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */,
 				52215D0B21455E2A000B6C9F /* Info.plist */,
+				52D8989021A39B8D00578A8E /* 2018_11_12_xception_8452.mlmodel */,
 			);
 			path = smartPricer;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				52215D0221455E29000B6C9F /* MyStuffViewController.swift in Sources */,
 				52215CFE21455E29000B6C9F /* AppDelegate.swift in Sources */,
+				52D8989121A39B8D00578A8E /* 2018_11_12_xception_8452.mlmodel in Sources */,
 				52215D0021455E29000B6C9F /* MarketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
