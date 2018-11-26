@@ -84,11 +84,11 @@
 				52215CFD21455E29000B6C9F /* AppDelegate.swift */,
 				52215CFF21455E29000B6C9F /* MarketViewController.swift */,
 				52215D0121455E29000B6C9F /* MyStuffViewController.swift */,
+				5265636B2198D7F800FB0719 /* EditImage.swift */,
 				52215D0321455E29000B6C9F /* Main.storyboard */,
 				52215D0621455E2A000B6C9F /* Assets.xcassets */,
 				52215D0821455E2A000B6C9F /* LaunchScreen.storyboard */,
 				52215D0B21455E2A000B6C9F /* Info.plist */,
-				5265636B2198D7F800FB0719 /* EditImage.swift */,
 			);
 			path = smartPricer;
 			sourceTree = "<group>";

@@ -9,13 +9,16 @@
 import UIKit
 
 class EditImage: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    
-    let ImagePicker = UIImagePickerController()
 
     @IBOutlet var ViewImage: UIImageView!
+    var newImage: UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let picture = newImage {
+            ViewImage.contentMode = .scaleAspectFit
+            ViewImage.image = picture
+        }
 
         // Do any additional setup after loading the view.
     }
